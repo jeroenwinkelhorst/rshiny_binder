@@ -1,2 +1,0 @@
-#!/bin/bash
-exec R --quiet -e "shiny::runApp('rshiny', port=8888, host='0.0.0.0', launch.browser=FALSE)"
